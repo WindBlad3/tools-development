@@ -1,12 +1,13 @@
 EDIT VARIABLE "PATH" FOR USER, HERE YOU SHOULD ADD FOR EXAMPLE:
 
-C:\Development\apache-maven-3.5.0\bin
-C:\Program Files\Java\jdk1.8.0_221\bin
+%MAVEN_HOME%\bin
+%JAVA_HOME%\bin
 C:\Program Files\Java\jre1.8.0_231\bin
 
 THEN, MORE DOWN YOU SHOULD ADD VARIABLES FOR EXAMPLE:
 NAME: M2_HOME AND PATH IS C:\Development\apache-maven-3.5.0\.m2
 NAME: MAVEN_HOME AND PATH IS C:\Development\apache-maven-3.5.0
+NAME: JAVA_HOME AND PATH IS C:\Program Files\Java\jdk1.8.0_221
 
 OTHERS, THE CONFIGURATION OF M2 HOME IS IN SETTINGS.XML OF MAVEN.
 
